@@ -6,9 +6,9 @@ import {
   RatingComponent,
 } from 'common/components';
 import { Button } from '@material-ui/core';
-import { formValidation } from './hotel.validations';
-import { Hotel } from './hotel.vm';
-import * as classes from './hotel.styles';
+import { formValidation } from './character.validations';
+import { Hotel } from './character.vm';
+import * as classes from './character.styles';
 import { Lookup } from 'common/models';
 
 interface Props {
