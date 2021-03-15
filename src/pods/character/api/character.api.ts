@@ -9,6 +9,6 @@ export const getCharacter = async (id: number): Promise<Character> => {
   return data.find((h) => h.id === id);
 };
 
-export const saveHotel = async (character: Character): Promise<boolean> => {
+export const saveCharacter = async (character: Character): Promise<boolean> => {
   return true;
 };
