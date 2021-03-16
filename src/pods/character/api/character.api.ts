@@ -4,11 +4,15 @@ import Axios from 'axios';
 
 const url = '/api/characters';
 
-export const getCharacter = async (id: number): Promise<Character> => {
+export const getCharacter = async (id: string): Promise<Character> => {
   const { data } = await Axios.get<Character[]>(url);
-  return data.find((h) => h.id === id);
+  return data.find((h) => h.id === parseInt(id));
 };
 
 export const saveCharacter = async (character: Character): Promise<boolean> => {
-  return true;
+  if (character.id) {
+    await Axios.put<Character>(`${url}/${character.id}`, character)
+  }
+
+  return true
 };

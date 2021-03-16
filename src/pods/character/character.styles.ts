@@ -2,6 +2,12 @@ import { css } from 'emotion';
 
 export const root = css`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+`;
+
+export const infoContainer = css`
+  flex-grow: 1
+`;
+
+export const sentencesContainer = css`
+  flex-grow: 1
 `;
