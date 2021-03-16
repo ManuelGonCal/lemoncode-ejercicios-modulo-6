@@ -5,4 +5,4 @@ El ejercicio 1 se encuentra en la rama 'ejercicio-1'. Para acceder a él ejecuta
 
 
 ## Ejercicio 2
-El ejercicio 2 se encuentra en la rama 'ejercicio-1'. Para acceder a él ejecutar el comando 'git checkout ejercicio-1'
+El ejercicio 2 se encuentra en la rama 'ejercicio-2'. Para acceder a él ejecutar el comando 'git checkout ejercicio-2'
